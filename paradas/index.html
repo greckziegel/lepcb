@@ -19,54 +19,100 @@
             </span>
         </div>
     </nav>
-
     <table class="table table-dark table-hover mb-0">
-        <thead>
+      <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Motivo da Parada</th>
-            <th scope="col">Status</th>
-            <th scope="col">Descrição da Contramedida</th>  
-            <th scope="col">Ações</th>
+              <th scope="col">#</th>
+              <th scope="col">Motivo da Parada</th>
+              <th scope="col">Status</th>
+              <th scope="col">Descrição da Contramedida</th>
+              <th scope="col">Ações</th>
           </tr>
-        </thead>
-        
-        <tbody>
+      </thead>
+      <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Temperatura abaixo da aceitável</td>
-            <td>Resolvido</td>
-            <td>Ajustado a temperatura</td>
-            <td>
-                <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button> 
-                <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete-modal">🗑 Em aberto</button>
-                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
-            </td>
+              <th scope="row">1</th>
+              <td>Temperatura abaixo da aceitável</td>
+              <td>Resolvido</td>
+              <td>Ajustado a temperatura</td>
+              <td></td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Bucha</td>
-            <td>Em andamento</td>
-            <td>Esvaziar máquina e fazer limpeza</td>
-            <td>
-                <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button> 
-                <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete-modal">🗑 Em aberto</button>
-                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
-            </td>
+              <th scope="row">2</th>
+              <td>Bucha</td>
+              <td>Em andamento</td>
+              <td>Esvaziar máquina e fazer limpeza</td>
+              <td>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
+              </td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>Defeito em X coisa</td>
-            <td>Em aberto</td>
-            <td>Esperando peça para conserto</td>
-            <td>
-                <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button> 
-                <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete-modal">🗑 Em aberto</button>
-                <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
-            </td>
+              <th scope="row">3</th>
+              <td>Defeito em X coisa</td>
+              <td>Em aberto</td>
+              <td>Esperando peça para conserto</td>
+              <td>
+                  <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
+              </td>
           </tr>
-        </tbody>
-      </table>
+          <tr>
+              <th scope="row">4</th>
+              <td>Falha elétrica</td>
+              <td>Em andamento</td>
+              <td>Verificar sistema elétrico</td>
+              <td>
+                  <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete-modal">🗑 Em aberto</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
+              </td>
+          </tr>
+          <tr>
+              <th scope="row">5</th>
+              <td>Obstrução na linha de produção</td>
+              <td>Em aberto</td>
+              <td>Remover obstrução e limpar área</td>
+              <td>
+                  <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete-modal">🗑 Em aberto</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
+              </td>
+          </tr>
+          <tr>
+              <th scope="row">6</th>
+              <td>Problema no software</td>
+              <td>Resolvido</td>
+              <td>Atualizar software para nova versão</td>
+              <td>
+                  <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete-modal">🗑 Em aberto</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
+              </td>
+          </tr>
+          <tr>
+              <th scope="row">7</th>
+              <td>Falta de matéria-prima</td>
+              <td>Em aberto</td>
+              <td>Aguardar entrega do fornecedor</td>
+              <td>
+                  <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete-modal">🗑 Em aberto</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
+              </td>
+          </tr>
+          <tr>
+              <th scope="row">8</th>
+              <td>Problema mecânico</td>
+              <td>Em andamento</td>
+              <td>Substituir peças danificadas</td>
+              <td>
+                  <button type="button" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#edit-modal">🖊 Em andamento</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete-modal">🗑 Em aberto</button>
+                  <button type="button" class="btn btn-sm btn-outline-success" data-bs-toggle="modal" data-bs-target="#success-modal">✔️ Resolvido</button>
+              </td>
+          </tr>
+      </tbody>
+  </table>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
